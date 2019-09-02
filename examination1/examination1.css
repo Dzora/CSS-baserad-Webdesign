@@ -1,0 +1,13 @@
+#header{
+	text-align: center;
+	color: black;
+	background-image: url("https://cdn62.picsart.com/182591866000202.jpg?c256x256");
+	max-width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 30px;
+}
+
+#menu{
+	background-color: grey;
+}
