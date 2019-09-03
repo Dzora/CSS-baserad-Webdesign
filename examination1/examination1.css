@@ -1,13 +1,102 @@
+body{
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
 #header{
 	text-align: center;
 	color: black;
-	background-image: url("https://cdn62.picsart.com/182591866000202.jpg?c256x256");
-	max-width: 100%;
-	height: auto;
+	background-image: url("https://gameranx.com/wp-content/uploads/2017/03/The-Legend-of-Zelda-Breath-of-the-Wild-1080P-Wallpaper-1.jpg");
+	background-position: 0% 11%; 
 	margin: 0px;
 	padding: 30px;
 }
 
 #menu{
-	background-color: grey;
+	background-color: midnightblue;
+	padding: 10px;
+}
+
+#main{
+	background-color: deepskyblue;
+	padding: 10px;
+
+}
+
+#footer{
+	padding: 5px 10px 5px 10px;
+	background-color: midnightblue;
+	text-align: right;
+	border-bottom: 3px solid lightskyblue;
+}
+
+#links{
+	margin: 0px;
+}
+
+.linkStyle{
+	font-family: Verdana, Arial, sans-serif;
+}
+
+
+h2{
+	font-family: Verdana, Arial, sans-serif;
+}
+
+h3 {
+	font-family: Verdana, Arial, sans-serif;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	margin-right: 20px; /*Used for making more space between the links*/
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+table{
+	border-collapse: collapse;
+	margin: auto;
+}
+
+th {
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+}
+
+td, tr {
+	border: 1px solid black;
+	padding: 3px;
+	width: 100px;
+}
+
+tr:nth-child(even){
+	background-color: lightskyblue;
+} 
+
+.leftColumn{
+	text-align: left;
+}
+
+.otherColumns{
+	text-align: right;
+	font-style: italic;
+}
+
+#tableHeading{
+	text-align: center;
+}
+
+#anchor{
+	margin: 0px;
+}
+
+#footLink{
+	color: deepskyblue;
+	font-family: Verdana, Arial, sans-serif;
 }
