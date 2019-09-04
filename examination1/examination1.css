@@ -8,7 +8,8 @@ body{
 	text-align: center;
 	color: black;
 	background-image: url("https://gameranx.com/wp-content/uploads/2017/03/The-Legend-of-Zelda-Breath-of-the-Wild-1080P-Wallpaper-1.jpg");
-	background-position: 0% 11%; 
+	background-position: 0% 11%;
+	background-size: cover; 
 	margin: 0px;
 	padding: 30px;
 }
