@@ -9,7 +9,7 @@ body{
 
 #headContainer{
 	background-color: black;
-	width: 1000px;
+	width: 70%;
 	margin: 0 auto;
 	color: white;
 	text-align: left;
@@ -25,10 +25,11 @@ body{
 }
 
 #menu{
-	background-color: black;
+	background-color: #2F4F4F;
 	padding: 10px;
-	width: 1000px;
+	width: 70%;
 	margin: 0 auto;
+	border-bottom: 1px solid grey;
 }
 
 #links{
@@ -47,4 +48,17 @@ a:hover{
 
 .linkStyle{
 	font-family: Verdana, Arial, sans-serif;
+}
+
+#main{
+	column-count: 2;
+	column-gap: 40px;
+	column-rule-style: solid;
+	column-rule-color: red;
+	
+	background-color: black;
+	padding: 10px;
+	width: 70%;
+	margin: 0 auto;
+	color: white;
 }
