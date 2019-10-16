@@ -14,7 +14,6 @@ body{
 	color: white;
 	text-align: left;
 	padding: 10px;
-	border-bottom: 1px solid grey;
 }
 
 #logo{
@@ -25,11 +24,16 @@ body{
 }
 
 #menu{
-	background-color: #2F4F4F;
+	background: repeating-linear-gradient(
+  	-45deg,
+  	#1f1f2e,
+  	#1f1f2e 4px,
+  	#29293d 8px,
+  	#29293d 8px
+	);
 	padding: 10px;
 	width: 70%;
 	margin: 0 auto;
-	border-bottom: 1px solid grey;
 }
 
 #links{
@@ -62,3 +66,4 @@ a:hover{
 	margin: 0 auto;
 	color: white;
 }
+
