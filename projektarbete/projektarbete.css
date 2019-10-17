@@ -13,7 +13,7 @@ body{
 	margin: 0 auto;
 	color: white;
 	text-align: left;
-	padding: 10px;
+	padding: 20px;
 }
 
 #logo{
@@ -31,7 +31,7 @@ body{
   	#29293d 8px,
   	#29293d 8px
 	);
-	padding: 10px;
+	padding: 20px;
 	width: 70%;
 	margin: 0 auto;
 }
@@ -63,14 +63,17 @@ a:hover{
 	width: 70%;
 	margin: 0 auto;
 	color: white;
+	padding: 20px;
 }
 
 #bethesda_logo{
-	width: 200px;
+	width: 100%;
+	height: auto;
 	float: right;
 	margin: 20px;
 	padding: 2px;
 	background-color: white;
+	max-width: 200px;
 }
 
 #main p { /*Used to make it easier to read the paragraphs*/
@@ -79,10 +82,13 @@ a:hover{
 }
 
 #raceimage{
-	width: 500px;
+	width: 100%;
+	height: auto;
 	float: left;
 	margin: 20px;
 	padding: 2px;
+	max-width: 500px; 
+
 }
 
 
